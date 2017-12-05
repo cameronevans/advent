@@ -1,0 +1,19 @@
+{
+  "name": "advent",
+  "version": "1.0.0",
+  "description": "advent of code answers",
+  "main": "2017.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "advent": "./node_modules/babel-cli/bin/babel-node.js 2017.js",
+    "push": "git push origin master registry=https://registry.npmjs.org/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cameronevans",
+  "license": "ISC"
+}
