@@ -11,7 +11,6 @@
   "devDependencies": {},
   "scripts": {
     "advent": "./node_modules/babel-cli/bin/babel-node.js 2017.js",
-    "push": "git push origin master registry=https://registry.npmjs.org/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cameronevans",
